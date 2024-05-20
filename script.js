@@ -17,4 +17,16 @@ github.addEventListener('click',()=>{
     window.open(githublink,'GitHub Profile');
 });
 
+const git_project_1 = document.querySelector('.git_project_1');
+const git_project_link = 'https://github.com/CodingFranky/FbCart-Ecommerce'
+git_project_1.addEventListener('click',()=>{
+    window.open(git_project_link,'Ecommerce Project');
+});
+
+const project_1 = document.querySelector('.project_1');
+const live_1 = 'https://fbcart-ecommerce.vercel.app/'
+project_1.addEventListener('click',()=>{
+    window.open(live_1,'Project 1');
+});
+
 
